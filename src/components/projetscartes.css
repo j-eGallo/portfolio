@@ -30,3 +30,17 @@ a {
 .projet-card p {
   text-align: left;
 }
+
+
+
+@media screen and (max-width: 480px) {
+  .projet-card {
+    width: 380px;
+    background: linear-gradient(90deg, rgba(242, 0, 255, 1), rgba(168, 0, 246, 1));
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align-last: left;
+    margin-bottom: 50px;
+  }
+}
