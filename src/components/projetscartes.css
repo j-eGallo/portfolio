@@ -1,0 +1,32 @@
+.projet-card {
+    width: 380px;
+    background: linear-gradient(90deg, rgba(242, 0, 255, 1), rgba(168, 0, 246, 1));
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align-last: left;
+    margin-bottom: 50px;
+}
+
+.projet-card:hover img {
+  transform: scale(1.025);
+  width: 100%;
+}
+
+.projet-card img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-weight: 900;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+.projet-card p {
+  text-align: left;
+}

@@ -1,0 +1,162 @@
+.topcontact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90vh;
+  padding: 40px 20px;
+  background-image: url(/src/assets/cbck.png);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-top: 1px solid #d400ff;
+  font-family: "Roboto", sans-serif;
+}
+
+.contactpart {
+  background-color: #2e2e2e;
+  width: 100%;
+  max-width: 900px;
+  padding: 40px 30px;
+  border-radius: 30px;
+  color: white;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.contact-underline {
+  height: 5px;
+  width: 120px;
+  background-color: #d400ff;
+  margin: 0 auto 30px auto;
+  border-radius: 3px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.icon {
+  font-size: 2rem;
+  background-color: #d400ff;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form .row {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 1;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+.contact-form button {
+  align-self: center;
+  padding: 15px 30px;
+  background-color: #d400ff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+  font-weight: 700;
+}
+
+.contact-form button:hover {
+  background-color: #b100d4;
+}
+
+.jg-logo {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+.bottomlogo {
+  height: 50px;
+}
+
+/* ✅ RESPONSIVE */
+@media screen and (max-width: 768px) {
+  .contact-form .row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+  }
+
+  .contact-title {
+    font-size: 1.6rem;
+  }
+
+  .contactpart {
+    padding: 30px 20px;
+  }
+
+  .bottomlogo {
+    height: 40px;
+  }
+
+  .jg-logo {
+    position: static;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-underline {
+    width: 80px;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+
+  .icon {
+    font-size: 1.5rem;
+  }
+}

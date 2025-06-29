@@ -1,0 +1,162 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.apropos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background: #2e2e2e;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid #d400ff;
+}
+
+.top {
+    top: 30px;
+    position: absolute;
+    width: 100%;
+}
+
+.titre {
+    color: white;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.underline {
+    background: linear-gradient(90deg, rgba(242, 0, 255, 1), rgba(168, 0, 246, 1));
+    width: 620px;
+    height: 5px;
+    border-radius: 80px;
+    margin-bottom: 10px;
+    place-self: center;
+}
+.soustitre {
+  color: white;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 50px;
+}
+
+.description img {
+  height: 140px;
+  width:  140px;
+  align-self: anchor-center;
+  margin-bottom: 45px;
+}
+.card {
+  width: 500px;
+  text-align: left;
+  padding: 0;
+}
+
+.card button {
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(242, 0, 255, 1), rgba(168, 0, 246, 1));
+    width: 170px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight:700;
+}
+
+.titledesc {
+  color: #f200ff;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: white;
+  font-weight: 900;
+  text-align: justify;
+  margin-bottom: 45px;
+}
+
+.tags {
+  text-align: start;
+}
+
+.tags span {
+    background: linear-gradient(90deg, rgba(242, 0, 255, 1), rgba(168, 0, 246, 1));
+    color: white;
+    justify-content: space-between;
+    padding: 7px;
+    border-radius: 100px;
+    display: inline-flex;
+    margin-bottom: 18px;
+    margin-right: 18px;
+    font-weight: 900;
+    transition: 0.5s;
+    user-select: none;
+}
+
+.tags span:hover {
+    background: white;
+    color: rgba(242, 0, 255, 1);
+}
+
+.slider {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+.titre {
+  color: white;
+  font-size: 20px;
+}
+
+.underline {
+  background: linear-gradient(90deg, rgba(242,0,255,1), rgba(168,0,246,1));
+  width: 120px;
+  height: 3px;
+  place-self: center;
+}
+
+.apropos {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 145vh;
+}
+
+.card {
+    width: 330px;
+    text-align: center;
+    padding: 0;
+}
+
+.description {
+    display: block;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 50px;
+    justify-items: center;
+}
+
+.tags {
+    text-align: center;
+}
+
+.description img {
+    height: 140px;
+    width: 140px;
+    align-self: anchor-center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+}
