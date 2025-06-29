@@ -1,7 +1,7 @@
 import './projets.css'
 import ProjetCartes from './ProjetCartes'
 import Physis from '../assets/physis.png'
-import Checcucci from '../assets/Checcucci.png'
+import Checcucci from '../assets/corinne.png'
 import Myorion from '../assets/myorion.png'
 
 export default function Projets() {
