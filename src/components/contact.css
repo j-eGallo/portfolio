@@ -84,6 +84,13 @@
 }
 
 .contact-form textarea {
+  min-height: 200px;
+  resize: vertical; 
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
   height: 150px;
   resize: none;
 }

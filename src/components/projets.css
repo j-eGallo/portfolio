@@ -7,7 +7,7 @@
   padding: 130px;
   box-sizing: border-box;
   color: white;
-      padding-top: 20px;
+  padding-top: 20px;
 
 }
 
@@ -30,12 +30,14 @@
 }
 
 .projets-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 67px;
-  width: 100%;
+    display: flex;
+    gap: 27px;
+    width: 100%;
+    flex-wrap: wrap;
+    place-content: center;
 }
+
+
 
 
 @media (max-width: 768px) {
@@ -49,5 +51,6 @@
     box-sizing: border-box;
     color: white;
     padding-top: 20px;
+    padding-bottom: 100px;
 }
 }

@@ -20,6 +20,15 @@
 
 h2 {
   font-weight: 900;
+  text-align: left;
+}
+
+.st {
+  font-weight: 900;
+}
+
+.desc {
+  margin-top: 20px;
 }
 
 a {
@@ -31,16 +40,19 @@ a {
   text-align: left;
 }
 
-
+.tags {
+  margin-top: 20px;
+}
 
 @media screen and (max-width: 480px) {
-  .projet-card {
-    width: 380px;
-    background: linear-gradient(90deg, rgba(242, 0, 255, 1), rgba(168, 0, 246, 1));
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    text-align-last: left;
-    margin-bottom: 50px;
-  }
+.projet-card {
+  width: 380px;
+  background: linear-gradient(90deg, rgba(242, 0, 255, 1), rgba(168, 0, 246, 1));
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-align-last: left;
+  margin-bottom: 0px;
+  width: 78%;
+}
 }
