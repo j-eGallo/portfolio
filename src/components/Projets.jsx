@@ -36,7 +36,7 @@ export default function Projets() {
       titre: 'Gestion formateurs',
       sousTitre: `Orion Santé`,
       description: `Service dédié aux formateurs afin qu'ils puissent communiquer leurs choix à l'administration`,
-      tags : 'Javascript, NodeJS, JSON, WebSockets, OpenStreetMap',
+      tags : 'Javascript, NodeJS, JSON, WebSockets',
     },
     {
       image: Physis,
