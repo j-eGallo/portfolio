@@ -18,8 +18,8 @@ import ScrollReveal from 'scrollreveal';
   origin: 'top',
   distance: '50px',
   duration: 1000,
-  delay: 500,
-  reset: true,
+  delay: 300,
+  reset: false,
   });
   }, []);
 

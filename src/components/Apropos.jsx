@@ -11,17 +11,27 @@ export default function Apropos() {
   origin: 'left',
   distance: '50px',
   duration: 1000,
-  delay: 500,
+  delay: 300,
   reset: false,
   });
   }, []);
 
-    useEffect(() => {
+useEffect(() => {
   ScrollReveal().reveal('.card-right', {
   origin: 'right',
   distance: '50px',
   duration: 1000,
-  delay: 500,
+  delay: 300,
+  reset: false,
+  });
+  }, []);
+
+  useEffect(() => {
+  ScrollReveal().reveal('.description img', {
+  origin: 'top',
+  distance: '50px',
+  duration: 1000,
+  delay: 300,
   reset: false,
   });
   }, []);
