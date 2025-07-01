@@ -1,5 +1,5 @@
 import './apropos.css'
-import Moi from '../assets/moi.png'
+import Moi2 from '../assets/moi2.png'
 import Slide from './Slide'
 
 export default function Apropos() {
@@ -24,11 +24,11 @@ export default function Apropos() {
                   <p>Développeur web en alternance, passionné par la création d’outils utiles et bien codés. 
                   J’aime construire des projets simples mais solides, en allant droit au but. Actuellement 
                   en poste chez Orion Santé, je travaille sur des applications internes en Vanilla JS et Node.js.
-                  Curieux, déterminé, et toujours partant pour apprendre.</p>
+                  Curieux, déterminé, et toujours partant pour mettre à profit mes compétences</p>
                   <a href="#contact" onClick={(e) => handleScroll(e, 'contact')}><button>ME CONTACTER</button></a>
 
                 </div>
-                <img src={Moi} alt="" />
+                <img src={Moi2} alt="" />
                 <div className='card'>
                 <h1 className='titledesc'>Mes compétences</h1>
                 <div className='tags'>
