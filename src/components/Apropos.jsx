@@ -1,10 +1,35 @@
 import './apropos.css'
+import { useEffect } from 'react';
 import Moi2 from '../assets/moi2.png'
 import Slide from './Slide'
+import ScrollReveal from 'scrollreveal';
+
 
 export default function Apropos() {
+  useEffect(() => {
+  ScrollReveal().reveal('.card', {
+  origin: 'left',
+  distance: '50px',
+  duration: 1000,
+  delay: 500,
+  reset: false,
+  });
+  }, []);
+
+    useEffect(() => {
+  ScrollReveal().reveal('.card-right', {
+  origin: 'right',
+  distance: '50px',
+  duration: 1000,
+  delay: 500,
+  reset: false,
+  });
+  }, []);
+
     const handleScroll = (e, id) => {
   e.preventDefault();
+
+
 
   const target = document.getElementById(id);
   if (target) {
@@ -29,7 +54,7 @@ export default function Apropos() {
 
                 </div>
                 <img src={Moi2} alt="" />
-                <div className='card'>
+                <div className='card-right'>
                 <h1 className='titledesc'>Mes compétences</h1>
                 <div className='tags'>
                   <span>HTML</span>

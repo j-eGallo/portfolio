@@ -1,4 +1,5 @@
 import './projets.css'
+import { useEffect } from 'react'
 import ProjetCartes from './ProjetCartes'
 import Physis from '../assets/physis.png'
 import Checcucci from '../assets/corinne.png'
@@ -6,8 +7,22 @@ import Myorion from '../assets/myorion.png'
 import Dashboard from '../assets/dashboard.png'
 import GesAdmin from '../assets/gestion_session_admin.png'
 import GesForm from '../assets/gestion_session_formateurs.png'
+import ScrollReveal from 'scrollreveal';
 
-export default function Projets() {
+
+  export default function Contact() {
+  
+  
+  useEffect(() => {
+  ScrollReveal().reveal('.projet-card', {
+  origin: 'top',
+  distance: '50px',
+  duration: 1000,
+  delay: 500,
+  reset: true,
+  });
+  }, []);
+
   const projets = [
       {
       image: Myorion,

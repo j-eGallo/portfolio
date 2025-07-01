@@ -6,15 +6,15 @@ export default function Autotype() {
     <TypeAnimation
       sequence={[
         'JEAN-EMMANUEL GALLO',
-        9000,
+        500,
         'DÉVELOPPEUR WEB',
-        9000,
+        500,
         'DÉVELOPPEUR BACK-END',
-        9000,
+        500,
         'DÉVELOPPEUR FULL-STACK',
-        9000,
+        500,
         'DÉVELOPPEUR PASSIONNÉ',
-        9000
+        500
       ]}
       className='autotype'
       wrapper="span"

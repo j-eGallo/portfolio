@@ -58,7 +58,7 @@ width: 100lvw;
   align-self: anchor-center;
   margin-bottom: 45px;
 }
-.card {
+.card, .card-right {
   width: 500px;
   text-align: left;
   padding: 0;
@@ -131,10 +131,10 @@ width: 100lvw;
 .apropos {
         padding-left: 2%;
         padding-right: 2%;
-        min-height: 185vh;
+        min-height: 188vh;
     }
 
-.card {
+.card, .card-right {
     width: 330px;
     text-align: center;
     padding: 0;
