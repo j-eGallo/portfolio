@@ -1,0 +1,40 @@
+.autotype::after {
+  content: '▍';
+  color: #ff00ff;
+  font-weight: bold;
+  font-size: 4rem;
+  animation: blink 1s infinite;
+}
+
+.autotype-container {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 1rem 2rem;
+  user-select: none;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
+@media (max-width: 768px) {
+.autotype-container {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 0.5rem;
+  user-select: none;
+}
+
+.autotype::after {
+  content: '▍';
+  color: #ff00ff;
+  font-weight: bold;
+  font-size: 2rem;
+  animation: blink 1s infinite;
+}
+}
