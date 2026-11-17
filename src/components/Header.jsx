@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 import Autotype from './Autotype';
 
 const keywords = [
-  "FRONT-END", "SQL", "BACK-END", "GITHUB", "DOCKERS", "NODE JS"
+  "SYMFONY", "REACT", "REACT NATIVE", "NODE JS", "DOCKER", "MySQL", "MONGO DB", "CI/CD", "TYPESCRIPT"
 ];
 
 export default function Header() {
