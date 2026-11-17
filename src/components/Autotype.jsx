@@ -7,13 +7,17 @@ export default function Autotype() {
       sequence={[
         'JEAN-EMMANUEL GALLO',
         500,
-        'DÉVELOPPEUR WEB',
-        500,
-        'DÉVELOPPEUR BACK-END',
-        500,
         'DÉVELOPPEUR FULL-STACK',
         500,
-        'DÉVELOPPEUR PASSIONNÉ',
+        'DÉVELOPPEUR SYMFONY',
+        500,
+        'DÉVELOPPEUR REACT',
+        500,
+        'DÉVELOPPEUR REACT NATIVE',
+        500,
+        'DÉVELOPPEUR TYPESCRIPT',
+        500,
+        'DÉVELOPPEUR NODE JS',
         500
       ]}
       className='autotype'
