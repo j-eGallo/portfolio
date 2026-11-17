@@ -67,15 +67,14 @@ useEffect(() => {
                 <div className='card-right'>
                 <h1 className='titledesc'>Mes compétences</h1>
                 <div className='tags'>
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>JAVASCRIPT</span>
+                  <span>SYMFONY</span>
                   <span>REACT</span>
+                  <span>REACT NATIVE</span>
                   <span>NODE JS</span>
-                  <span>PHP</span>
-                  <span>WORDPRESS</span>
-                  <span>GITHUB</span>
+                  <span>REACT</span>
                   <span>DOCKER</span>
+                  <span>SQL</span>
+                  <span>MONGO DB</span>
                 </div>
                 </div>
               </div>
