@@ -56,10 +56,12 @@ useEffect(() => {
               <div className='description'>
                 <div className='card'>
                   <h1 className='titledesc'>Qui suis-je ?</h1>
-                  <p>Développeur web en alternance, passionné par la création d’outils utiles et bien codés. 
-                  J’aime construire des projets simples mais solides, en allant droit au but. Actuellement 
-                  en poste chez Orion Santé, je travaille sur des applications internes en Vanilla JS et Node.js.
-                  Curieux, déterminé, et toujours partant pour mettre à profit mes compétences</p>
+                <p>Développeur Full-Stack, récemment diplômé du titre de Concepteur Développeur
+                  d’Applications, je bénéficie de deux années d’expérience professionnelle.
+                  Autonome, rigoureux et passionné par le développement, je conçois des applications
+                  fiables, performantes et adaptées aux besoins des utilisateurs.
+                  Toujours avide d’apprendre, je souhaite relever de nouveaux défis techniques
+                  et mettre mes compétences au service de projets ambitieux.</p>
                   <a href="#contact" onClick={(e) => handleScroll(e, 'contact')}><button>ME CONTACTER</button></a>
 
                 </div>
@@ -67,15 +69,15 @@ useEffect(() => {
                 <div className='card-right'>
                 <h1 className='titledesc'>Mes compétences</h1>
                 <div className='tags'>
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>JAVASCRIPT</span>
-                  <span>REACT</span>
+                  <span>Symfony</span>
+                  <span>TypesScript</span>
+                  <span>React</span>
+                  <span>React Native</span>
                   <span>NODE JS</span>
-                  <span>PHP</span>
-                  <span>SYMFONY</span>
-                  <span>GITHUB</span>
-                  <span>DOCKER</span>
+                  <span>Mongo DB</span>
+                  <span>Docker</span>
+                  <span>Wordpress</span>
+                  <span>Github</span>
                 </div>
                 </div>
               </div>
