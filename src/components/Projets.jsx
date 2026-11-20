@@ -1,6 +1,7 @@
 import './projets.css'
 import { useEffect } from 'react'
 import ProjetCartes from './ProjetCartes'
+import Logregdel from '../assets/logregdel.png'
 import Physis from '../assets/physis.png'
 import Checcucci from '../assets/corinne.png'
 import Myorion from '../assets/myorion.png'
@@ -26,6 +27,20 @@ export default function Projets() {
   }, [])
 
   const projets = [
+    {
+      image: Logregdel,
+      titre: 'LOGREGDEL',
+      categorie: 'Projet personnel',
+      sousTitre: 'Application d’authentification Full-Stack',
+      description: `Application Full-Stack permettant la création de comptes utilisateurs,
+      la connexion sécurisée via JWT et la suppression de comptes.
+      Le projet repose sur une architecture React et TypeScript côté frontend,
+      une API REST Symfony côté backend et une base de données PostgreSQL.
+      L’application intègre également Docker.`,
+      technologies: ['typescript', 'react', 'symfony', 'docker'],
+      lien: 'https://logregdel.vercel.app/login',
+      lienGit: 'https://github.com/j-eGallo/logregdel'
+    },
     {
       image: Myorion,
       titre: 'My Orion',
