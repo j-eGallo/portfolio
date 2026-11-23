@@ -56,12 +56,11 @@ useEffect(() => {
               <div className='description'>
                 <div className='card'>
                   <h1 className='titledesc'>Qui suis-je ?</h1>
-                <p>Développeur Full-Stack, récemment diplômé du titre de Concepteur Développeur
+                <p>Développeur Full-Stack, diplômé du titre de Concepteur Développeur
                   d’Applications, je bénéficie de deux années d’expérience professionnelle.
                   Autonome, rigoureux et passionné par le développement, je conçois des applications
                   fiables, performantes et adaptées aux besoins des utilisateurs.
-                  Toujours avide d’apprendre, je souhaite relever de nouveaux défis techniques
-                  et mettre mes compétences au service de projets ambitieux.</p>
+                  En éternel curieux, je ne suis pas avare de nouveaux défis.</p>
                   <a href="#contact" onClick={(e) => handleScroll(e, 'contact')}><button>ME CONTACTER</button></a>
 
                 </div>

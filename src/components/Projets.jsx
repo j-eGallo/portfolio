@@ -1,6 +1,7 @@
 import './projets.css'
 import { useEffect } from 'react'
 import ProjetCartes from './ProjetCartes'
+import Std from '../assets/std.png'
 import Logregdel from '../assets/logregdel.png'
 import Physis from '../assets/physis.png'
 import Checcucci from '../assets/corinne.png'
@@ -9,6 +10,7 @@ import Dashboard from '../assets/dashboard.png'
 import GesAdmin from '../assets/gestion_session_admin.png'
 import GesForm from '../assets/gestion_session_formateurs.png'
 import ScrollReveal from 'scrollreveal'
+
 
 export default function Projets() {
 
@@ -27,6 +29,20 @@ export default function Projets() {
   }, [])
 
   const projets = [
+        {
+      image: Std,
+      titre: 'Super To-do List',
+      categorie: 'Projet personnel',
+      sousTitre: 'Application d’authentification Full-Stack',
+      description: `STD-List (Super To-Do List) est une application web de gestion de tâches permettant aux utilisateurs d'organiser facilement leur quotidien.
+
+Chaque utilisateur dispose d'un espace personnel sécurisé dans lequel il peut ajouter, consulter, modifier et supprimer ses tâches, en leur attribuant une date. Un calendrier permet également de planifier ses activités.
+
+Développée avec React, Node.js, Express et MongoDB, l'application intègre un système d'authentification JWT et une interface simple, moderne et intuitive.`,
+      technologies: ['react', 'nodejs', 'mongodb'],
+      lien: 'https://github.com/j-eGallo/std-list',
+      lienGit: 'https://std-list.vercel.app/'
+    },
     {
       image: Logregdel,
       titre: 'LOGREGDEL',
