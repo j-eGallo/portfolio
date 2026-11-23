@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import ProjetCartes from './ProjetCartes'
 import Std from '../assets/std.png'
 import Logregdel from '../assets/logregdel.png'
+import Bmr from '../assets/bmr.png'
 import Physis from '../assets/physis.png'
 import Checcucci from '../assets/corinne.png'
 import Myorion from '../assets/myorion.png'
@@ -90,6 +91,14 @@ Développée avec React, Node.js, Express et MongoDB, l'application intègre un 
       sousTitre: 'Orion Santé',
       description: "Service dédié aux formateurs afin qu’ils puissent communiquer leurs choix à l’administration.",
       technologies: ['javascript', 'nodejs']
+    },
+      {
+      image: Bmr,
+      titre: 'Calculateur de BMR et de TDEE',
+      categorie: "Projet personnel",
+      description: "Petit projet consistant à permettre aux sportifs de calculer leur BMR et leur TDEE.",
+      technologies: ['typescript', 'react'],
+      lien: 'https://calculateur-de-bmr-tdee-8tfo.vercel.app/',
     },
     {
       image: Physis,
