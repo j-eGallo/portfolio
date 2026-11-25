@@ -1,7 +1,9 @@
 import './projets.css'
 import { useEffect } from 'react'
 import ProjetCartes from './ProjetCartes'
+import Rbadmin from '../assets/rbbureau.png'
 import Std from '../assets/std.png'
+import Motus from '../assets/motus.png'
 import Logregdel from '../assets/logregdel.png'
 import Bmr from '../assets/bmr.png'
 import Physis from '../assets/physis.png'
@@ -30,19 +32,25 @@ export default function Projets() {
   }, [])
 
   const projets = [
+            {
+      image: Rbadmin,
+      titre: 'Restau Bonheur - Partie administration',
+      categorie: 'Application Web',
+      sousTitre: 'Application pour les restaurateurs',
+      description: `L’espace restaurateur est une application web développée avec React et TypeScript, permettant aux restaurateurs de gérer leur établissement depuis un tableau de bord dédié. Ils peuvent modifier leurs informations, gérer leurs horaires d’ouverture, leur capacité d’accueil, leurs photos et consulter les réservations ainsi que les avis de leurs clients.`,
+      technologies: ['typescript','react', 'symfony', 'docker'],
+      lien: 'https://vercel.com/jean-emmanuel/restau-bonheur/4SFv34gV4ESpx8JGWHRdw9SzxF6L',
+      lienGit: 'https://github.com/j-eGallo/restau_bonheur'
+    },
+
         {
-      image: Std,
-      titre: 'Super To-do List',
+      image: Motus,
+      titre: 'Motus Master',
       categorie: 'Projet personnel',
-      sousTitre: 'Application d’authentification Full-Stack',
-      description: `STD-List (Super To-Do List) est une application web de gestion de tâches permettant aux utilisateurs d'organiser facilement leur quotidien.
-
-Chaque utilisateur dispose d'un espace personnel sécurisé dans lequel il peut ajouter, consulter, modifier et supprimer ses tâches, en leur attribuant une date. Un calendrier permet également de planifier ses activités.
-
-Développée avec React, Node.js, Express et MongoDB, l'application intègre un système d'authentification JWT et une interface simple, moderne et intuitive.`,
-      technologies: ['react', 'nodejs', 'mongodb'],
-      lien: 'https://github.com/j-eGallo/std-list',
-      lienGit: 'https://std-list.vercel.app/'
+      sousTitre: 'Jeu du Motus',
+      description: `Petit projet de jeu Motus`,
+      technologies: ['react', 'nodejs'],
+      lienGit: 'https://github.com/j-eGallo/motus-master'
     },
     {
       image: Logregdel,
@@ -58,6 +66,7 @@ Développée avec React, Node.js, Express et MongoDB, l'application intègre un 
       lien: 'https://logregdel.vercel.app/login',
       lienGit: 'https://github.com/j-eGallo/logregdel'
     },
+    
     {
       image: Myorion,
       titre: 'My Orion',
@@ -67,6 +76,19 @@ Développée avec React, Node.js, Express et MongoDB, l'application intègre un 
       technologies: ['javascript', 'nodejs'],
       lien: 'https://www.orionsante.fr/myorion',
       lienGit: 'https://github.com'
+    },
+            {
+      image: Std,
+      titre: 'Super To-do List',
+      categorie: 'Projet personnel',
+      sousTitre: 'Application de to-do list',
+      description: `STD-List (Super To-Do List) est une application web de gestion de tâches permettant aux utilisateurs d'organiser facilement leur quotidien.
+
+Chaque utilisateur dispose d'un espace personnel sécurisé dans lequel il peut ajouter, consulter, modifier et supprimer ses tâches, en leur attribuant une date. Un calendrier permet également de planifier ses activités.
+
+Développée avec React, Node.js, Express et MongoDB, l'application intègre un système d'authentification JWT et une interface simple, moderne et intuitive.`,
+      technologies: ['typescript','react', 'nodejs', 'mongodb'],
+      lienGit: 'https://github.com/j-eGallo/motus-master'
     },
     {
       image: Dashboard,
@@ -98,6 +120,7 @@ Développée avec React, Node.js, Express et MongoDB, l'application intègre un 
       categorie: "Projet personnel",
       description: "Petit projet consistant à permettre aux sportifs de calculer leur BMR et leur TDEE.",
       technologies: ['typescript', 'react'],
+      lienGit: 'https://github.com/j-eGallo/Calculateur-de-BMR-TDEE',
       lien: 'https://calculateur-de-bmr-tdee-8tfo.vercel.app/',
     },
     {
